@@ -30,8 +30,16 @@ hThree.appendChild(hT);
 
 const diver = document.querySelector('#container');
 const diverCont = document.createElement('div');
-diverCont.style.width = '100px';
-diverCont.style.height = '100px';
+
 diverCont.style.border = 'thin solid black';
 diverCont.style.backgroundColor = 'Pink';
 diver.appendChild(diverCont);
+
+// 03A, B, C
+const diverH = document.createElement('h1');
+diverH.textContent = 'I\'m in div !';
+diverCont.appendChild(diverH);
+
+const diverP = document.createElement('p');
+diverP.textContent = 'ME TOO!';
+diverCont.appendChild(diverP);
