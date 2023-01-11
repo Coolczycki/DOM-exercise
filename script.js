@@ -19,4 +19,7 @@ cont.appendChild(para);
 // 02: <h3> blue text
 
 const hThree = document.querySelector('#container');
-
+const hT = document.createElement('h3');
+hT.textContent = "I\'m a blue h3!"; 
+hT.style.color = 'Blue';
+hThree.appendChild(hT);
