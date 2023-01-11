@@ -9,3 +9,14 @@
         03 C) append the <h1> and <p> to it before adding it to the container
 */
 
+// 01: create <p> text
+const cont = document.querySelector('#container');
+const para = document.createElement("p");
+para.textContent = 'Hey, I\'m red!';
+para.style.color = 'Red';
+cont.appendChild(para);
+
+// 02: <h3> blue text
+
+const hThree = document.querySelector('#container');
+
