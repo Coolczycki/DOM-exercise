@@ -43,3 +43,10 @@ diverCont.appendChild(diverH);
 const diverP = document.createElement('p');
 diverP.textContent = 'ME TOO!';
 diverCont.appendChild(diverP);
+
+// button exercise
+
+const btnCon = document.querySelector('#btn');
+btnCon.addEventListener('click', () => {
+        alert('Woah, it is working!')
+});
